@@ -1,1 +1,11 @@
-console.log("lesson-1 Vuejs")
+const app = Vue.createApp({
+    data(){
+        return {
+            name:'Xani',
+            age:51
+        }
+    }
+})
+
+
+app.mount("#app")
